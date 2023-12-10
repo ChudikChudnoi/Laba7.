@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru"><img src="foto/
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link type="image/x-icon" href="favicon.png" rel="shortcut icon">
+</head>
+<body>
+    <header>
+        <div id="label">
+            <img id = "logoimg" src="d.png" alt="logo" height="50px">
+            DOTA2.INFO
+        </div>
+
+        <a href="" id=""><img src="foto/Hamburger1.png" alt="ham" height="35px"></a>
+    </header>
+
+    <main>
+        
+        <div id = "contSlider">
+            <div id = "slider">
+                <img class="slidersItem" src="foto/1.png" alt="sliderimg" height="100%" width="100%">
+                <img class="slidersItem" src="foto/2.jpeg" alt="sliderimg" height="100%" width="100%">
+                <img class="slidersItem" src="foto/3.jpg" alt="sliderimg" height="100%" width="100%">
+                <img class="slidersItem" src="foto/4.jpg" alt="sliderimg" height="100%" width="100%">
+                
+                <button id="prev" onclick="previmg()" type="button">&lt; </button>
+                <button id="next" onclick="nextimg()" type="button">&gt;</button>
+            </div>
+            <script src="script.js"></script>
+        </div>
+    
+        
+        <article id="article"> <img src="foto/Roshan.webp" alt="Рошан" id="artimg"> 
+            <h1>Тайминги Рошана</h1>
+            <span>
+            Рошан возрождается по случайному таймеру от 8 до 11 минут после смерти. Днем он появляется
+            в юго-восточном углу карты, ночью – в северо-западном. Игра стартует днем, а день и ночь 
+            сменяются каждые 5 минут. 
+            Отталкиваясь от времени суток на карте, вы можете рассчитать где будет находиться Рошан.<br>
+            1 смерть – всегда Аегис;<br>
+            2 смерть – всегда Аегис и Сыр;<br>
+            3 смерть и далее – Аегис, Сыр и Аганим, если Рошан на стороне Сил Света/Рефрешер Шард, если Рошан на стороне Сил Тьмы.</span>
+            <a href="https://dota2.fandom.com/ru/wiki/%D0%A0%D0%BE%D1%88%D0%B0%D0%BD" id="readBut">Read more...<a>
+        </article>
+    
+        <div id="cont">
+            <div class="contcont">
+                <img  src="foto/Lotus1.webp" alt="">
+                <span> Лотосы спавняться каждую 3 минуту </span>
+            </div>
+            <div class="contcont">
+                <img  src="foto/bountys.webp" alt="">
+                <span> Bounty спавнятся каждую 3 минуту </span>
+            </div>
+            <div class="contcont">
+                <img  src="foto/rune.jpg" alt="">
+                <span> Руны усиления на миду спавняться с 6 и каждую 2 минуту </span>
+            </div>
+            <div class="contcont">
+                <img  src="foto/roshan1.jpg" alt="">
+                <span> Рошан спавниться каждую 8-11 минут ( изначально есть на карте) </span>
+            </div>
+        </div>
+
+        
+        <form>
+            <fieldset>
+                <legend> Остались вопросы? Задай их: </legend>
+                <p> <input type="text" placeholder="Ваше имя"></p>
+                <p> <input type="text" placeholder="Ваш вопрос"></p>
+                <p> <input type="submit" id="submit"></p>
+            </fieldset>
+        </form>
+        
+    </main>
+
+    <footer>
+        <a href=""><img src="foto/tg.png" alt=""></a>
+        <a href=""><img src="foto/inst.png" alt=""></a>
+        <a href=""><img src="foto/vk.png" alt=""></a>
+        <a href=""><img src="foto/mail.png" alt=""></a>
+    </footer>
+</body>
+</html>
